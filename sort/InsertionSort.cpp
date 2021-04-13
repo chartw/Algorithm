@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ctime>
-#include "../algorithm.h"
+#include "sort.h"
 using namespace std;
 
 #define N 100000
