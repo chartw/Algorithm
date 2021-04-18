@@ -37,3 +37,11 @@ void checkSort(int a[], int n)
         cout << "Error during sorting..." << endl;
     }
 }
+
+// swap
+void _swap(int arr[], int a, int b)
+{
+    int temp = arr[b];
+    arr[b] = arr[a];
+    arr[a] = temp;
+}
