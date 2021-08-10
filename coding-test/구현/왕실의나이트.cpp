@@ -10,11 +10,11 @@ int dy[4]={-1,1,0,0};
 int main(){
     cin>>pos;
 
-    int x=pos[0]-96;
-    int y=pos[1]-48;
-    int cnt=0;
+    auto x=pos[0]-96;
+    auto y=pos[1]-48;
+    auto cnt=0;
     for(int i=0;i<4;i++){
-        int nx=-1, ny=-1;
+        auto nx=-1, ny=-1;
 
         nx=x+2*dx[i];
         ny=y+2*dy[i];
